@@ -1,21 +1,32 @@
-# Machine Learning Course - TDDE01
+# Machine Learning and Statistical Modeling in R
+This repository contains implementations of various machine learning and statistical modeling techniques using R. The scripts explore principal component analysis (PCA), linear and ridge regression, and Gaussian kernel smoothing for temperature prediction.
 
-Welcome to the repository for the course `TDDE01 - Machine Learning`. This repository includes labs covering various topics in machine learning. Below is an overview of the labs and their assignments:
+## Contents
+# 1. Principal Component Analysis (PCA)
+**File:** PCA.R
+**Description:** Implements Principal Component Analysis (PCA) to analyze a dataset related to crime statistics.
+**Key Methods:**
+- Eigen decomposition to determine principal components.
+- Variance explained analysis to determine the number of components needed for 95% variance retention.
+- Trace plots to visualize feature importance.
+- Scatter plots of PC1 and PC2 colored by crime rates.
+- Linear regression on transformed principal components.
+# 2. Linear and Ridge Regression
+**File:** Linear_and_Ridge_Regression.R
+**Description:** Implements linear regression and ridge regression to analyze Parkinson’s disease symptom scores.
+**Key Methods:**
+- Splitting data into training and test sets.
+- Linear regression for predicting motor_UPDRS from voice parameters.
+- Log-likelihood function computation for parameter estimation.
+- Ridge regression with different lambda values (1, 100, 1000) to observe regularization effects.
+- Comparison of model performance using MSE and degrees of freedom.
+# 3. Gaussian Kernel Smoothing for Temperature Prediction
+**File:** Gaussian_Kernel.R
+**Description:** Implements Gaussian kernel smoothing to predict temperature based on geospatial and temporal factors.
+**Key Methods:**
+- Merging weather station data with temperature readings.
+- Defining Gaussian kernels for distance, date, and time.
+- Combining kernels (sum & multiplicative approaches) for prediction.
+- Visualizing kernel smoothing effects on distance, time, and date.
+- Plotting predicted temperatures over different times of the day.
 
-## Lab 1
-
-### Assignment 2: Linear regression and ridge regression
-#### Data: parkinsons.csv
-Predicting Parkinson's disease symptom scores (motor UPDRS) using linear regression and ridge regression. Key tasks include data preprocessing, building linear and ridge regression models, optimizing parameters, and evaluating model performance through mean squared error (MSE) for training and test data.
-
-## Lab 2
-
-### Assignment 3: Principal components and implicit regularization
-#### Data: communities.csv
-Analyzing principal components and implicit regularization in the context of crime level. Key tasks include scaling variables, implementing PCA using the eigen() and princomp() functions, analyzing trace plot, identifying features contributing significantly etc. as well as estimating a linear regression model where the results are evaluated focused on identifying the optimal iteration number based on the early stopping criterion.
-
-## Lab 3
-
-### Assignment 1: Kernel Methods
-#### Data: temps50k.csv, stations.csv
-Using kernel methods for making temperature prediction in Sweden by implementing three Gaussian kernels based on physical distance, day-to-day distance, and hour-to-hour distance. Manually analyzing and determine the appropriate smoothing and investigating the differences in the predictions when summing and multiplying the kernels together.

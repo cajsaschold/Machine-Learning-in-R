@@ -3,9 +3,9 @@ This repository contains implementations of various machine learning and statist
 
 ## Contents
 # 1. Principal Component Analysis (PCA)
-**File:** PCA.R
-**Description:** Implements Principal Component Analysis (PCA) to analyze a dataset related to crime statistics.
-**Key Methods:**
+**File:** PCA.R  
+**Description:** Implements Principal Component Analysis (PCA) to analyze a dataset related to crime statistics.  
+**Key Methods:**  
 - Eigen decomposition to determine principal components.
 - Variance explained analysis to determine the number of components needed for 95% variance retention.
 - Trace plots to visualize feature importance.

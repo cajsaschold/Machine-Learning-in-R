@@ -3,7 +3,7 @@ This repository contains implementations of various machine learning and statist
 
 ## Contents
 # 1. Principal Component Analysis (PCA)
-**File:** PCA.R  
+**File:** `PCA.R`  
 **Description:** Implements Principal Component Analysis (PCA) to analyze a dataset related to crime statistics.  
 **Key Methods:**  
 - Eigen decomposition to determine principal components.
@@ -12,7 +12,7 @@ This repository contains implementations of various machine learning and statist
 - Scatter plots of PC1 and PC2 colored by crime rates.
 - Linear regression on transformed principal components.
 # 2. Linear and Ridge Regression
-**File:** Linear_and_Ridge_Regression.R  
+**File:** `Linear_and_Ridge_Regression.R`
 **Description:** Implements linear regression and ridge regression to analyze Parkinson’s disease symptom scores.  
 **Key Methods:**  
 - Splitting data into training and test sets.
@@ -21,7 +21,7 @@ This repository contains implementations of various machine learning and statist
 - Ridge regression with different lambda values (1, 100, 1000) to observe regularization effects.
 - Comparison of model performance using MSE and degrees of freedom.
 # 3. Gaussian Kernel Smoothing for Temperature Prediction
-**File:** Gaussian_Kernel.R  
+**File:** `Gaussian_Kernel.R`  
 **Description:** Implements Gaussian kernel smoothing to predict temperature based on geospatial and temporal factors.  
 **Key Methods:**  
 - Merging weather station data with temperature readings.

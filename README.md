@@ -37,3 +37,5 @@ This repository contains implementations of various machine learning and statist
 ### 6. Bayesian methods
 **File:** `Bayesian.pdf` 
 **Description:** Report on Gaussian Processes, covering kernel design (squared, exponantial, and periodic), posterior inferencce for regression, and applying GP classificaion to detect banknote fraud. 
+**File:** `Linear_and_Ridge_Regression.R`
+**Description:** Implements linear regression and ridge regression to analyze Parkinson’s disease symptom scores.  

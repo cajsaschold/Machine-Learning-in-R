@@ -15,7 +15,6 @@ This repository contains implementations of various machine learning and statist
 **File:** `Linear_and_Ridge_Regression.R`
 **Description:** Implements linear regression and ridge regression to analyze Parkinson’s disease symptom scores.  
 **Key Methods:**  
-- Splitting data into training and test sets.
 - Linear regression for predicting motor_UPDRS from voice parameters.
 - Log-likelihood function computation for parameter estimation.
 - Ridge regression with different lambda values (1, 100, 1000) to observe regularization effects.
@@ -31,7 +30,10 @@ This repository contains implementations of various machine learning and statist
 - Plotting predicted temperatures over different times of the day.
 ### 4. Hidden Markov Models
 **File:** `Hidden_Markov_Model.pdf` 
+**Description:** Report on Hidden Markov Models (HMMs), focusing on probalistic modeling and inference tasks. 
 ### 5. Reinforcement Learning
 **File:** `Reinforcement_Learning.pdf` 
+**Description:** Implements Q-Learning with different polocies and environments to study parameter effects on learning. 
 ### 6. Bayesian methods
 **File:** `Bayesian.pdf` 
+**Description:** Report on Gaussian Processes, covering kernel design (squared, exponantial, and periodic), posterior inferencce for regression, and applying GP classificaion to detect banknote fraud. 

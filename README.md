@@ -30,7 +30,8 @@ This repository contains implementations of various machine learning and statist
 - Visualizing kernel smoothing effects on distance, time, and date.
 - Plotting predicted temperatures over different times of the day.
 ### 4. Hidden Markov Models
-
+**File:** `Hidden_Markov_Model.pdf` 
 ### 5. Reinforcement Learning
-
+**File:** `Reinforcement_Learning.pdf` 
 ### 6. Bayesian methods
+**File:** `Bayesian.pdf` 
